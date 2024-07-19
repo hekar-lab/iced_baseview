@@ -24,7 +24,7 @@ svg = ["iced_widget/svg"]
 canvas = ["iced_widget/canvas"]
 
 [dependencies]
-baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "fdb43ea" }
+baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "579130ecb4f9f315ae52190af42f0ea46aeaa4a2" }
 cfg-if = "1"
 copypasta = "0.8"
 iced_runtime = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
