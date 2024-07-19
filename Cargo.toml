@@ -27,11 +27,11 @@ canvas = ["iced_widget/canvas"]
 baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "fdb43ea" }
 cfg-if = "1"
 copypasta = "0.8"
-iced_runtime = "0.1"
-iced_renderer = "0.1"
-iced_graphics = "0.9"
-iced_style = "0.9"
-iced_widget = "0.1"
+iced_runtime = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
+iced_renderer = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
+iced_graphics = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
+iced_style = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
+iced_widget = {git = "https://github.com/hekar-lab/iced.git", branch = "0.10"}
 keyboard-types = { version = "0.6", default-features = false }
 log = "0.4"
 raw-window-handle = "0.5"
