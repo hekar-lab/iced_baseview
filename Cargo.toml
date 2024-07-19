@@ -22,6 +22,7 @@ wgpu = ["iced_renderer/wgpu"]
 image = ["iced_widget/image"]
 svg = ["iced_widget/svg"]
 canvas = ["iced_widget/canvas"]
+trace = []
 
 [dependencies]
 baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "579130ecb4f9f315ae52190af42f0ea46aeaa4a2" }

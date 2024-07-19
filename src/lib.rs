@@ -25,6 +25,8 @@ pub use iced_runtime::futures;
 pub use iced_style as style;
 pub use iced_widget as widget;
 
+pub use iced_renderer as backend;
+
 mod application;
 pub mod clipboard;
 pub mod conversion;
